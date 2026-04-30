@@ -8,7 +8,7 @@ No starter code (Inspired by textbook)
 
 import matplotlib.pyplot as plt 
 
-# Part 1
+# Part 1: First 5 Cubes
 
 input = [1, 2, 3, 4, 5]
 output = [1, 8, 27, 64, 125]
@@ -23,7 +23,8 @@ my_plot.set_ylabel("Cube of Value", fontsize=20)
 my_fig.savefig('cubes_5.png')
 plt.show()
 
-# Part 2
+# Part 2: First 5000 Cubes
+
 input = range(1, 5001)
 output = [x**3 for x in input]
 
